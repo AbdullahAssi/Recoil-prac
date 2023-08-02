@@ -1,0 +1,89 @@
+.item-card{
+  display: flex;
+  gap: 25px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(126, 187, 187);
+  border-radius: 10px;
+  max-width: 250px;
+  padding: 2rem;
+}
+.price{
+  margin-top: -1rem;
+}
+.nav{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+.cart-container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.t{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+  font-weight: 600;
+}
+.t-h{
+  color: #ba0101;
+  font-size: 30px;
+  background-color: bisque;
+  align-items: center;
+  text-align: center;
+}
+.h{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color:darkgreen;
+}
+.name{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item-image{
+  width: 50%;
+}
+.cart-list{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.button{
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin: .5rem;
+}
+
+#bottone1 {
+  margin-top: .5rem;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #3078b3;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+ }
+ 
+ #bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #ba0101;
+ }
+ 
+ #bottone1:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #C3D900;
+ }
